@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +17,8 @@
     width: 80%;
     margin: 0 auto;
   }
-  div.img-mar{
-      display: flex
-  }
+  
+  
   header {
     background: linear-gradient(to right, #00aaff, #004e92);
     color: #ffffff;
@@ -75,6 +76,11 @@
     justify-content: space-between;
     margin-top: 20px;
   }
+
+  .img-mar{
+    display: flex;
+    justify-content: center;
+  }
   
   .diferencial-item {
     width: 30%;
@@ -98,8 +104,6 @@
     width: 50%;
     height: auto;
     border-radius: 8px;
-    margin-top: 20px;
-    margin-left: 280px;
   }
   
 

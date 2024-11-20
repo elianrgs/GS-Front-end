@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Energia Sustentável</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Formulário de Contato</h1>
+            <div class="intro-section">
+                <p>Entre em contato conosco e ajude a construir um futuro mais sustentável através da energia renovável!</p>
+            </div>
+        </div>
+        <nav>
+                <ul>
+                    <li><a href="./index.html">Página Inicial</a></li>
+                    <li><a href="./tecnologias.html">Tecnologias</a></li>
+                    <li><a href="./objetivo.html">Objetivos</a></li>
+                    <li><a href="./publico.html">Público</a></li>
+                    <li><a href="./beneficios.html">Beneficios</a></li>
+                    <li><a href="./sustentabilidade.html">Sustentabilidade</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section id="carrossel">
+            <div class="carrossel-container">
+                <img src="./img/mao.png" alt="Mão" class="carrossel-img">
+                <img src="./img/lampada.png" alt="Energia" class="carrossel-img">
+                <img src="./img/polu.png" alt="Sustent" class="carrossel-img">
+            </div>
+        </section>
+
+        <section id="formulario">
+            <h2>Fale Conosco </h2>
+            <div class="form-box">
+                <form id="form-contato" onsubmit="return validarFormulario(event)">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Energia Sustentável. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./JS/form.js"></script>
+
+</body>
+
+</html>

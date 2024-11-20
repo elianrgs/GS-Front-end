@@ -1,0 +1,163 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background: linear-gradient(to right, #00aaff, #004e92);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 40px 20px;
+}
+
+
+.objetivos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.objetivos h2 {
+    font-size: 28px;
+    color: #004e92;
+    margin-bottom: 20px;
+}
+
+.objetivos .intro-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.objetivos-imagem {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.objetivos-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.objetivo-item {
+    background-color: #f4f9fc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.objetivo-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.objetivo-item h3 {
+    font-size: 22px;
+    color: #004e92;
+    margin-bottom: 10px;
+}
+
+.objetivo-item p {
+    font-size: 16px;
+    color: #333;
+}
+
+
+footer {
+    background-color: #004e92;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .objetivo-item {
+        padding: 15px;
+    }
+
+    .objetivos h2 {
+        font-size: 24px;
+    }
+
+    .objetivos .intro-text {
+        font-size: 16px;
+    }
+
+    .objeto-imagem img {
+        max-width: 80%;
+    }
+}

@@ -1,6 +1,6 @@
 Global Solution - Front end Design e Web Development
 
-Equipe EcoWaves
+## Equipe EcoWaves
 
 ## Projeto de site para projeto de captura de energia cinética das Ondas.
 

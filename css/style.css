@@ -76,6 +76,11 @@
     justify-content: space-between;
     margin-top: 20px;
   }
+
+  .img-mar{
+    display: flex;
+    justify-content: center;
+  }
   
   .diferencial-item {
     width: 30%;
@@ -99,8 +104,6 @@
     width: 50%;
     height: auto;
     border-radius: 8px;
-    margin-top: 20px;
-    margin-left: 280px;
   }
   
 
